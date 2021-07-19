@@ -1,0 +1,388 @@
+<style>
+    .features-block {
+        margin: 2.5vmin 0 2.5vmin 0;
+        padding: 0 0vmin 0;
+        color: #000000;
+        background: #ffffff;
+    }
+
+    .features-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5vmin 0 2.5vmin 0;
+        padding: 0 1vmin 0;
+
+        border-style: solid;
+        border-width: 2px;
+        border-color: #02afc8;
+        border-radius: 5px;
+    }
+
+    .features-row-text {
+        width: 50%;
+    }
+
+    .features-row-text h2 {
+        text-align: center;
+    }
+
+    .features-row-text p {
+        padding: 1em 0 1em;
+        font-weight: 400;
+        font-size: 2.1rem;
+        text-align: justify;
+    }
+
+    .features-row-image {
+        width: 50%;
+    }
+
+    .features-row-image img {
+        padding: 0 10px 0;
+        vertical-align: middle;
+        width: 100%;
+        height: auto;
+    }
+
+    .features-row-image figcaption {
+        text-align: center;
+    }
+
+    @media (max-width: 700px) {
+        .features-row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .features-row img {
+            padding: 10px;
+            vertical-align: middle;
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .inner {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .contacts {
+        position: relative;
+        height: 100%;
+        /*display: grid;*/
+        grid-template-columns: 200px 1fr 1fr;
+        grid-gap: 4vmin;
+    }
+
+    @media (max-width: 650px) {
+        .contacts {
+            grid-template-columns: 1fr;
+            grid-gap: 0;
+        }
+    }
+
+    .contact-card {
+        position: relative;
+        flex: 1 1 301px;
+        display: flex;
+        flex-direction: column;
+        min-height: 220px;
+        background-size: cover;
+        word-break: break-word;
+    }
+
+    .contact-card-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts-feed {
+        position: relative;
+        display: grid;
+        row-gap: 8vmin;
+        ;
+        column-gap: 4vmin;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* padding: 4vmin 0; */
+    }
+
+    @media (max-width: 1000px) {
+        .contacts-feed {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .contacts-feed {
+            grid-template-columns: 1fr;
+            row-gap: 80px;
+            column-gap: 40px;
+        }
+    }
+
+    .contact-header {
+        /* margin: 5vmin 0 5vmin 0; */
+        padding: 0 10vmin 0;
+        color: #000000;
+        background: #ffffff;
+        text-align: center;
+    }
+
+    /*.contact-card-image-wrap {
+                    margin: 1em
+                }*/
+
+    .contact-card-image {
+        display: block !important;
+        margin: 0 auto !important;
+        vertical-align: middle;
+        width: 250px;
+        height: 350px !important;
+        background: var(--color-lightgrey) no-repeat center center;
+        object-fit: cover;
+    }
+
+    .contact-name {
+        text-align: center;
+    }
+
+    .contact-desc {
+        text-align: justify;
+    }
+
+    .contact-email {
+        /* margin: 20px; */
+        text-align: center;
+    }
+
+    .contact-email a {
+        color: #02afc8;
+    }
+</style>
+
+
+
+<p>The main purpose of the project is investigating the viability of cargo bicycles as a solution for urban
+    logistics with subsequent application in urban logistics tasks in conditions of Almaty.</p>
+
+<div class="features-block">
+    <section class="features-row">
+        <div class="features-row-text">
+            <h2>The Problem</h2>
+            <p>In the city of Almaty, where most of the streets are narrow, with high road traffic and classic
+                delivery methods are difficult, cargo bicycles are the best method. Cargo bikes are bicycles
+                equipped with a box for transporting freight. When it comes to parcel delivery, cargo bikes are
+                particularly suitable for small, light consignments, which are currently on the increase, especially
+                for deliveries to private customers (B2C). Cargo bikes will be a key solution in last mile delivery
+                issue</p>
+        </div>
+        <div class="features-row-image">
+            <img src="https://github.com/SA-Inc/LogCentreAssets/blob/main/24180A3B-C54D-49C0-BDF2-33545FDECC89.jpeg?raw=true"
+                alt="">
+            <figcaption>Photo by: Arman Saparov</figcaption>
+        </div>
+    </section>
+</div>
+
+<p>One of the most important aspects of use and the problem that the delivery with the help of cargo bicycles must
+    solve is the reduction of emissions of harmful substances into the atmosphere.</p>
+
+<div class="features-block">
+    <section class="features-row">
+        <div class="features-row-image">
+            <img src="https://github.com/SA-Inc/LogCentreAssets/blob/main/IMG_0015.JPG?raw=true" alt="">
+            <figcaption>CC Photo: Tom Assmann</figcaption>
+        </div>
+        <div class="features-row-image">
+            <img src="https://github.com/SA-Inc/LogCentreAssets/blob/main/IMG_0016.JPG?raw=true" alt="">
+            <figcaption>CC Photo: Tom Assmann</figcaption>
+        </div>
+    </section>
+</div>
+
+<p>Expected result of the pilot project is implementation of a test cargo bike delivery between two buildings of DKU
+    for the transportation of the goods and necessary items in the educational process. Develop an urban logistics
+    application for the Sustainable Urban Mobility Plan (SUMP)</p>
+
+<div class="features-block">
+    <section class="features-row">
+        <div class="features-row-image">
+            <img src="https://github.com/SA-Inc/LogCentreAssets/blob/main/IMG_0013.JPG?raw=true" alt="">
+            <figcaption>CC Photo: Tom Assmann</figcaption>
+        </div>
+        <div class="features-row-text">
+            <h2>Expectations</h2>
+            <p>Bicycles and cycle logistics have established themselves in the public discourse on the design of
+                urban transport and urban logistics. The city of Almaty has ambitious plans to improve the
+                sustainability of the urban transport system. SUMP of the city of Almaty provides comprehensive
+                guidance on cycling development</p>
+        </div>
+    </section>
+</div>
+
+<p>Objectives of the project:</p>
+<ul>
+    <li>Prepare analysis and evaluation of cargo bike transport vs. other means of transports in Almaty in terms of
+        economic and ecological aspects</li>
+    <li>Cargo bike has been tested in operation at local partners, with Gebrüder Weiß</li>
+    <li>Organize a cargo bike route course between two University buildings with positive externalities for DKU and
+        LogCentre DKU</li>
+    <li>Create a digital platform for manage cargo bikes</li>
+    <li>Share knowledge about urban logistics solutions and planning principles</li>
+    <li>Encourage stakeholders to create new urban logistics systems</li>
+</ul>
+
+<p>Project timeline: 04.02.2021 – 31.12.2021</p>
+
+<div class="features-block">
+    <section class="features-row">
+        <div class="features-row-text">
+            <h2>Delivery and Customs</h2>
+            <p>One of the key partners of this project is the logistics company Gebrüder Weiß, which delivers a
+                cargo bike from Germany to Kazakhstan. The tasks of Gebruder Weiss include the execution of the
+                corresponding transport documents, customs clearance and delivery itself</p>
+        </div>
+        <div class="features-row-image">
+            <img src="https://github.com/SA-Inc/LogCentreAssets/blob/main/IMG_0024.jpg?raw=true" alt="">
+            <figcaption>CC: Gebrüder Weiß</figcaption>
+        </div>
+    </section>
+</div>
+
+
+
+<div class="contact-header">
+    <h1>Project Participants</h1>
+    <p class="contact-email"><a href="mailto:logcentre@dku.kz">logcentre@dku.kz</a></p>
+</div>
+
+<div class="contact-header">
+    <h2>Kazakh-German University (DKU - LogCentre) side</h2>
+</div>
+
+<div class="contacts-feed">
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image"
+                    src="https://github.com/SA-Inc/LogCentreAssets/blob/main/team_photo/Zhandos_Kegenbekov.jpg?raw=true"
+                    alt="">
+            </div>
+            <h2 class="contact-name">Kegenbekov Zhandos</h2>
+            <p class="contact-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.</p>
+            <p class="contact-email"><a href="mailto:kegenbekov@dku.kz">kegenbekov@dku.kz</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="{{asset " img/team_photo/Tobias_Reggelin.jpg"}}" alt="">
+            </div>
+            <h2 class="contact-name">Yerzakovich Yelena</h2>
+            <p class="contact-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.</p>
+            <p class="contact-email"><a href="mailto:yerzakovich@dku.kz">yerzakovich@dku.kz</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="{{asset " img/team_photo/Jens_Wollenweber.jpg"}}" alt="">
+            </div>
+            <h2 class="contact-name">Saparov Arman</h2>
+            <p class="contact-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.</p>
+            <p class="contact-email"><a href="mailto:a.saparov@dku.kz">a.saparov@dku.kz</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="{{asset " img/team_photo/Marat_Idrisov.jpg"}}" alt="">
+            </div>
+            <h2 class="contact-name">Alipova Alima</h2>
+            <p class="contact-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.</p>
+            <p class="contact-email"><a href="mailto:alima.alipova@aiesec.net">alima.alipova@aiesec.net</a></p>
+        </div>
+    </article>
+</div>
+
+<div class="contact-header">
+    <h2>Institut of Logistics and Material Handling Systems (ILM) of the
+        Otto-von-Guericke-University Magdeburg side</h2>
+</div>
+
+<div class="contacts-feed">
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="{{asset " img/team_photo/Marat_Idrisov.jpg"}}" alt="">
+            </div>
+            <h2 class="contact-name">Reggelin Tobias</h2>
+            <p class="contact-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.</p>
+            <p class="contact-email"><a href="mailto:tobias.reggelin@ovgu.de">tobias.reggelin@ovgu.de</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="{{asset " img/team_photo/Marat_Idrisov.jpg"}}" alt="">
+            </div>
+            <h2 class="contact-name">Assmann Tom</h2>
+            <p class="contact-desc">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the
+                1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.</p>
+            <p class="contact-email"><a href="mailto:tom.assmann@ovgu.de">tom.assmann@ovgu.de</a>
+            </p>
+        </div>
+    </article>
+</div>

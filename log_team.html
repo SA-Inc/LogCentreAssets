@@ -1,0 +1,162 @@
+<style>
+    .inner {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .contacts {
+        position: relative;
+        height: 100%;
+        /*display: grid;*/
+        grid-template-columns: 200px 1fr 1fr;
+        grid-gap: 4vmin;
+    }
+
+    @media (max-width: 650px) {
+        .contacts {
+            grid-template-columns: 1fr;
+            grid-gap: 0;
+        }
+    }
+
+    .contact-card {
+        position: relative;
+        flex: 1 1 301px;
+        display: flex;
+        flex-direction: column;
+        min-height: 220px;
+        background-size: cover;
+        word-break: break-word;
+    }
+
+    .contact-card-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts-feed {
+        position: relative;
+        display: grid;
+        row-gap: 8vmin;
+        ;
+        column-gap: 4vmin;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* padding: 4vmin 0; */
+    }
+
+    @media (max-width: 1000px) {
+        .contacts-feed {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .contacts-feed {
+            grid-template-columns: 1fr;
+            row-gap: 80px;
+            column-gap: 40px;
+        }
+    }
+
+    .contact-header {
+        /* margin: 5vmin 0 5vmin 0; */
+        padding: 0 10vmin 0;
+        color: #000000;
+        background: #ffffff;
+        text-align: center;
+    }
+
+    /*.contact-card-image-wrap {
+                margin: 1em
+            }*/
+
+    .contact-card-image {
+        display: block !important;
+        margin: 0 auto !important;
+        vertical-align: middle;
+        width: 250px;
+        height: 350px !important;
+        background: var(--color-lightgrey) no-repeat center center;
+        object-fit: cover;
+    }
+
+    .contact-name {
+        text-align: center;
+    }
+
+    .contact-desc {
+        text-align: justify;
+    }
+
+    .contact-email {
+        /* margin: 20px; */
+        text-align: center;
+    }
+
+    .contact-email a {
+        color: #02afc8;
+    }
+</style>
+
+<div class="contacts-feed">
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image"
+                    src="https://github.com/SA-Inc/LogCentreAssets/blob/main/team_photo/Burghard_Scheel.png?raw=true"
+                    alt="">
+            </div>
+            <h2 class="contact-name">Prof. Burghard Scheel</h2>
+            <p class="contact-desc">After completing graduate degree in business management, prof. Burghard Scheel worked for the BASF group in various positions for many years to 1990. From 1990, he led the privatization department of the Treuhandanstalt (trust), Magdeburg, for former state- owned enterprises (GDR) in Saxony - Anhalt. 1993 he became chairman of the board of an automotive supplier. He has been chairman of the board of trustees at Fraunhofer IFF in Magdeburg since many years to 2019. Fraunhofer is Europe’s largest applied research society. The institute has traditionally intensive contacts with the countries of eastern Europe and central Asia, where it conducts different research projects together with local partners from government, business and universities. Since 2010 to 2019 prof. Scheel was project coordinator for Kazakhstan for the Fraunhofer institute IFF and he also was a member of the “scientific advisory committee” for the “eastern Europe society” in Germany and member of the advisory board “digital Kazakhstan”, led by the prime minister of Kazakhstan. Prof. Burghard Scheel holds lectures at the Harz university of applied sciences, faculty of automation and it. Since October this year he´s been the DKU`s representative for logistics.</p>
+            <p class="contact-email"><a href="mailto:burghard.scheel@t-online.de">burghard.scheel@t-online.de</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image"
+                    src="https://github.com/SA-Inc/LogCentreAssets/blob/main/team_photo/Zhandos_Kegenbekov.jpg?raw=true"
+                    alt="">
+            </div>
+            <h2 class="contact-name">Dr. Zhandos Kadyrhanovich Kegenbekov</h2>
+            <p class="contact-desc">Dean of the Faculty of Engineering and Information Technologies, Associate Professor, Candidate of Technical Sciences. Scientific direction / Research interests: Transport, logistics. Courses taught: Fundamentals of freight and commercial work, logistics of goods movement, logistics management and controlling. The total number of publications during the period of all activity, including abroad, is 30.</p>
+            <p class="contact-email"><a href="mailto:kegenbekov@dku.kz">kegenbekov@dku.kz</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="https://github.com/SA-Inc/LogCentreAssets/blob/main/team_photo/Tobias_Reggelin.jpg?raw=true" alt="">
+            </div>
+            <h2 class="contact-name">Dr. Tobias Reggelin</h2>
+            <p class="contact-desc">Tobias Reggelin is a project manager, researcher and lecturer at Otto von Guericke university Magdeburg and Fraunhofer institute for factory operation and automation IFF Magdeburg. His main research and work interests include modeling and simulation of production and logistics systems and developing and applying logistics management games. Tobias Reggelin received a doctoral degree in engineering from Otto von Guericke university Magdeburg. Furthermore, he holds a master’s degree in engineering management from Rose-Hulman institute of technology in Terre haute (USA), in and a diploma degree in industrial engineering in logistics from Otto von Guericke university Magdeburg. Tobias Reggelin received the DHL innovation award “most innovative junior scientist 2012” for his work on fast and aggregated simulation models.</p>
+            <p class="contact-email"><a href="mailto:tobias.reggelin@ovgu.de">tobias.reggelin@ovgu.de</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="https://github.com/SA-Inc/LogCentreAssets/blob/main/team_photo/Jens_Wollenweber.jpg?raw=true" alt="">
+            </div>
+            <h2 class="contact-name">Prof. Dr. Jens Wollenweber</h2>
+            <p class="contact-desc">Education: Studies in Business Informatics, Albertus Magnus University, Cologne, Germany, Diploma in 2000; PhD (2007) at the Deutsche Post Chair for Optimization of Distribution Networks, RWTH Aachen University. Professional experience: More than 10 years of experience in management consulting; More than 10 years of experience in applied research, e.g. through leading activities at the Fraunhofer Institute for Integrated Circuits/Workgroup for Supply Chain Services (SCS). Today: Professor for Transportation Logistics at TH Wildau; Head of Research Group Transportation Logistics; Program director of Logistics (B.Eng.) and Technical Management (M. Eng.)</p>
+            <p class="contact-email"><a href="mailto:wollenweber@th-wildau.de">wollenweber@th-wildau.de</a></p>
+        </div>
+    </article>
+
+    <article class="contact-card">
+        <div class="contact-card-content">
+            <div class="contact-card-image-wrap">
+                <img class="contact-card-image" src="https://github.com/SA-Inc/LogCentreAssets/blob/main/team_photo/Marat_Idrisov.jpg?raw=true" alt="">
+            </div>
+            <h2 class="contact-name">Marat Idrisov</h2>
+            <p class="contact-desc">Director of the consulting company Kazakhstan Institute for Industrial Development LLP, with over 25 years of experience in the field of industry, strategic and management consulting, under whose leadership state programs for industrial and innovative development, industry roadmaps and action plans have been developed.</p>
+            <p class="contact-email"><a href="mailto:m.idrissov.kz@gmail.com">m.idrissov.kz@gmail.com</a></p>
+        </div>
+    </article>
+</div>
