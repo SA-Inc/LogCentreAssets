@@ -1,4 +1,9 @@
 <style>
+    .features-paragraph {
+        color: #02afc8;
+        justify-content: center;
+    }
+
     .features-block {
         margin: 2.5vmin 0 2.5vmin 0;
         padding: 0 0vmin 0;
@@ -12,7 +17,7 @@
         justify-content: center;
         align-items: center;
         margin: 2.5vmin 0 2.5vmin 0;
-        padding: 0 1vmin 0;
+        padding: 1vmin 1vmin 1vmin;
 
         border-style: solid;
         border-width: 2px;
@@ -24,12 +29,19 @@
         width: 50%;
     }
 
+    @media (max-width: 700px) {
+        .features-row-text {
+            width: 100%;
+        }
+    }
+
     .features-row-text h2 {
         text-align: center;
     }
 
     .features-row-text p {
         padding: 1em 0 1em;
+        margin: 0;
         font-weight: 400;
         font-size: 2.1rem;
         text-align: justify;
@@ -39,15 +51,23 @@
         width: 50%;
     }
 
+    @media (max-width: 700px) {
+        .features-row-image {
+            width: 100%;
+        }
+    }
+
     .features-row-image img {
         padding: 0 10px 0;
         vertical-align: middle;
         width: 100%;
         height: auto;
+        margin: 0;
     }
 
     .features-row-image figcaption {
         text-align: center;
+        margin: 0;
     }
 
     @media (max-width: 700px) {
@@ -128,8 +148,8 @@
     }
 
     .contact-header {
-        /* margin: 5vmin 0 5vmin 0; */
-        padding: 0 10vmin 0;
+        margin: 5vmin 0 5vmin 0;
+        padding: 0 0vmin 0;
         color: #000000;
         background: #ffffff;
         text-align: center;
@@ -169,7 +189,7 @@
 
 
 
-<p>The main purpose of the project is investigating the viability of cargo bicycles as a solution for urban
+<p class="features-paragraph">The main purpose of the project is investigating the viability of cargo bicycles as a solution for urban
     logistics with subsequent application in urban logistics tasks in conditions of Almaty.</p>
 
 <div class="features-block">
